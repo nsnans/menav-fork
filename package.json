@@ -1,0 +1,45 @@
+{
+  "name": "menav",
+  "version": "1.2.3",
+  "description": "A personal navigation website",
+  "main": "src/generator.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "generate": "node src/generator.js",
+    "minify": "node src/minify",
+    "build1": "pnpm run clean && pnpm run generate",
+    "build": "pnpm run clean && pnpm run generate && pnpm run minify",
+    "dev": "pnpm run build1 && serve dist --listen 3001",
+    "dev1": "serve dist",
+    "serve": "pnpm run build && serve dist --listen 3001",
+    "restructure": "node restructure.js",
+    "migrate-config": "node src/migrate-config.js",
+    "import-bookmarks": "node src/bookmark-processor.js"
+  },
+  "keywords": [
+    "navigation",
+    "website",
+    "personal"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "ansi-regex": "^6.0.1",
+    "ansi-styles": "^6.2.1",
+    "clean-css": "^5.3.3",
+    "color-convert": "^2.0.1",
+    "color-name": "^2.0.0",
+    "fs-extra": "^11.3.2",
+    "handlebars": "^4.7.8",
+    "has-flag": "^5.0.1",
+    "html-minifier-terser": "^7.2.0",
+    "js-yaml": "^4.1.0",
+    "mime-db": "^1.52.0",
+    "supports-color": "^9.4.0",
+    "terser": "^5.44.0",
+    "yaml": "^2.8.1"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}

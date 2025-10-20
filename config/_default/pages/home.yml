@@ -1,0 +1,163 @@
+title: 欢迎使用
+subtitle: 个人导航站点
+
+# 指定使用的模板文件名，现有页面模板可见templates\pages
+template: home
+
+categories:
+  - name: 常用网站
+    sites:
+      - name: Linux.do
+        url: https://linux.do/
+        description: 新的理想型社区
+      - name: Google
+        url: https://www.google.com
+        description: 全球最大的搜索引擎
+      - name: GitHub
+        url: https://www.github.com
+        description: 代码托管平台
+      - name: Stack Overflow
+        url: https://stackoverflow.com
+        description: 程序员问答社区
+      - name: ChatGPT
+        url: https://chat.openai.com
+        description: AI智能助手
+      - name: YouTube
+        url: https://www.youtube.com
+        description: 视频分享平台
+      - name: Twitter
+        url: https://twitter.com
+        description: 社交媒体平台
+      - name: Reddit
+        url: https://www.reddit.com
+        description: 社区讨论平台
+  - name: 学习资源
+    sites:
+      - name: 哔哩哔哩
+        url: https://www.bilibili.com
+        description: 视频学习平台
+      - name: 知乎
+        url: https://www.zhihu.com
+        description: 问答社区
+      - name: 掘金
+        url: https://juejin.cn
+        description: 高质量技术社区
+      - name: LeetCode
+        url: https://leetcode.cn
+        description: 算法刷题平台
+      - name: Coursera
+        url: https://www.coursera.org
+        description: 在线课程平台
+      - name: edX
+        url: https://www.edx.org
+        description: 高质量在线教育
+      - name: Udemy
+        url: https://www.udemy.com
+        description: 技能学习平台
+      - name: MDN Web Docs
+        url: https://developer.mozilla.org
+        description: Web开发文档
+  - name: 开发工具
+    sites:
+      - name: VS Code
+        url: https://code.visualstudio.com
+        description: 强大的代码编辑器
+      - name: Postman
+        url: https://www.postman.com
+        description: API调试工具
+      - name: Git
+        url: https://git-scm.com
+        description: 版本控制工具
+      - name: Docker
+        url: https://www.docker.com
+        description: 容器化平台
+      - name: JetBrains
+        url: https://www.jetbrains.com
+        description: 专业开发IDE
+      - name: npm
+        url: https://www.npmjs.com
+        description: Node.js包管理器
+      - name: Webpack
+        url: https://webpack.js.org
+        description: 前端打包工具
+      - name: GitHub Copilot
+        url: https://github.com/features/copilot
+        description: AI编程助手
+  - name: 设计资源
+    sites:
+      - name: Figma
+        url: https://www.figma.com
+        description: 在线设计工具
+      - name: Dribbble
+        url: https://dribbble.com
+        description: 设计师社区
+      - name: Behance
+        url: https://www.behance.net
+        description: 创意设计平台
+      - name: IconFont
+        url: https://www.iconfont.cn
+        description: 图标资源库
+      - name: Unsplash
+        url: https://unsplash.com
+        description: 免费高质量图片
+      - name: Adobe XD
+        url: https://www.adobe.com/products/xd.html
+        description: UI/UX设计工具
+      - name: Sketch
+        url: https://www.sketch.com
+        description: 矢量设计工具
+      - name: Canva
+        url: https://www.canva.com
+        description: 在线平面设计
+  - name: 在线工具
+    sites:
+      - name: JSON Editor
+        url: https://jsoneditoronline.org
+        description: JSON在线编辑器
+      - name: Can I Use
+        url: https://caniuse.com
+        description: 浏览器兼容性查询
+      - name: TinyPNG
+        url: https://tinypng.com
+        description: 图片压缩工具
+      - name: Carbon
+        url: https://carbon.now.sh
+        description: 代码图片生成器
+      - name: RegExr
+        url: https://regexr.com
+        description: 正则表达式测试
+      - name: Excalidraw
+        url: https://excalidraw.com
+        description: 手绘风格图表工具
+      - name: Notion
+        url: https://www.notion.so
+        description: 多功能笔记工具
+      - name: Grammarly
+        url: https://www.grammarly.com
+        description: 英文语法检查工具
+  - name: 云服务平台
+    sites:
+      - name: AWS
+        url: https://aws.amazon.com
+        description: 亚马逊云服务
+      - name: Azure
+        url: https://azure.microsoft.com
+        description: 微软云平台
+      - name: Google Cloud
+        url: https://cloud.google.com
+        description: 谷歌云平台
+      - name: Cloudflare
+        url: https://www.cloudflare.com
+        description: CDN与安全服务
+      - name: Vercel
+        url: https://vercel.com
+        description: 前端部署平台
+      - name: Netlify
+        url: https://www.netlify.com
+        description: 静态网站托管
+      - name: DigitalOcean
+        url: https://www.digitalocean.com
+        description: 简单云服务器
+      - name: Heroku
+        url: https://www.heroku.com
+        description: 应用部署平台

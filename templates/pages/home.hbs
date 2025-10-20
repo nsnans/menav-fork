@@ -1,0 +1,8 @@
+<div class="welcome-section">
+    <h2 data-editable="profile-title">{{profile.title}}</h2>
+    <span class="profile-subtitle" data-editable="profile-subtitle">{{profile.subtitle}}</span>
+    {{!-- <p class="subtitle" data-editable="profile-description">{{profile.description}}</p> --}}
+</div>
+{{#each categories}}
+{{> category}}
+{{/each}}

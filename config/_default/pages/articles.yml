@@ -1,0 +1,29 @@
+title: 技术文章
+subtitle: 分享我的技术文章和学习笔记
+
+# 指定使用的模板文件名，现有页面模板可见templates\pages
+template: articles
+
+categories:
+  - name: 最新文章
+    sites:
+      - name: Vue3最佳实践
+        description: Vue3组合式API的使用技巧
+        url: "#"
+      - name: JavaScript进阶
+        description: JavaScript高级特性解析
+        url: "#"
+      - name: Git使用技巧
+        description: Git常用命令和工作流
+        url: "#"
+      - name: Docker入门
+        description: Docker基础知识和实践
+        url: "#"
+  - name: 学习笔记
+    sites:
+      - name: React Hooks
+        description: React Hooks最佳实践
+        url: "#"
+      - name: Node.js实战
+        description: Node.js服务端开发笔记
+        url: "#" 
